@@ -3,7 +3,7 @@ import profileImage from "../assets/me.jpg"
 const Hero = () => {
   return (
     <section className="h-screen flex flex-col md:flex-row items-center justify-center bg-gray-900 text-white text-center md:text-left px-6">
-      <div className="max-w-3xl md:w-1/2">
+      <div className="max-w-3xl md:w-1/2 text-center md:text-left">
         <h1 className="text-5xl md:text-7xl font-bold leading-tight">
           Hej, jag heter <span className="text-blue-400">Linnea</span>
         </h1>
