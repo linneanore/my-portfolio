@@ -4,6 +4,8 @@ import viteLogo from '/vite.svg'
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import About from './components/About';
+import Skills from './components/Skills';
+import WorkExperience from './components/WorkExperience';
 //import './App.css'
 
 function App() {
@@ -12,6 +14,8 @@ function App() {
       <Navbar />
       <Hero />
       <About />
+      <Skills />
+      <WorkExperience />
       <div className="min-h-screen w-full bg-gray-900 flex flex-col items-center">
         <h1 className="text-5xl font-bold text-white">Välkommen till min portfolio!</h1>
       </div> 
