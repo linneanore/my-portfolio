@@ -6,6 +6,7 @@ import Hero from './components/Hero';
 import About from './components/About';
 import Skills from './components/Skills';
 import WorkExperience from './components/WorkExperience';
+import Education from './components/Education';
 //import './App.css'
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <About />
       <Skills />
       <WorkExperience />
+      <Education />
       <div className="min-h-screen w-full bg-gray-900 flex flex-col items-center">
         <h1 className="text-5xl font-bold text-white">Välkommen till min portfolio!</h1>
       </div> 
